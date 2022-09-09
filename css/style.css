@@ -5,38 +5,36 @@ h1{
     text-align: center;
     color: brown;
 }
-.Carcasa-exterior-sup {
+.Carcasa-superior {
     position: relative;
     justify-content: center;
     width: 230px;
     height: 190px;
     background-color:rgb(212, 211, 211)
-    
 }
 .Carcasa-inferior {
     display: flex;  
 }
-.Carcasa-exterior-inf-izq {
+.Carcasa-inferior-izquierda {
     width: 115px;
     height: 190px;
-    background-color:rgb(212, 211, 211)
-    
+    background-color:rgb(212, 211, 211) 
 }
-.Carcasa-exterior-inf-der {
+.Carcasa-inferior-derecha {
     width: 115px;
     height: 190px;
-    background-color:rgb(212, 211, 211)
-    
+    background-color:rgb(212, 211, 211)   
 }
 .Carcasa-pantalla {
     display: flex;
     justify-content: center;
     position: relative;
-    top: 40px;
+    top: 10px;
     left: 25px;
     width: 180px;
     height: 145px;
     background-color:gray
+    
 }
 .Pantalla {
     display: flex;
@@ -47,43 +45,52 @@ h1{
     height: 115px;
     background-color:burlywood
 }
-
-.a-button {
+.a-button-1 {
     width: 30px;
-    height:35px;
-    transform: rotate(45deg);
+    height: 30px;
+    transform: rotate(-35deg);
     background-color: beige;
     display: flex;
     justify-content: center;
     align-items: center;
     position: relative;
-    top: 25px;
-    left: 20px;
+    top: 50px;
+    left: 25px;
+    border-top-right-radius:15px;
+    border-bottom-right-radius: 15px;
+}
+.a-button-2 {
+    width: 30px;
+    height: 30px;
+    transform: rotate(-35deg);
+    background-color: beige;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 35.5px;
+    left: 3px;
+    border-top-left-radius:15px;
+    border-bottom-left-radius: 15px;
 }
 .circle-red {
     background-color: red;
-    width: 25px;
-    height: 25px;
+    width: 20px;
+    height: 20px;
     border-radius: 100%;
 }
 .top-arrows {
     display:flex;
 }
-.impar {
-    background-color:greenyellow;
-    width: 20px;
-    height: 20px;
-    text-align: center;
-    font-size: 150%; 
-}
 .par {
     background-color:black;
     width: 20px;
     height: 20px;
-    font-size: 150%; 
+    font-size: 150%;
+    border-radius: 2px;
 }
 .impar {
-    background-color:greenyellow;
+    background-color:rgb(211, 211, 211);
     width: 20px;
     height: 20px;
     font-size: 150%; 
@@ -100,4 +107,33 @@ h1{
     justify-content: center;
     left:25px;
     top: 0px;
+}
+.line-h {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 15px;
+    width: px;
+    height: 2px;
+    background-color:rgb(197, 197, 197)
+}
+.line-v1 {
+    display: flex;
+    justify-content: center;
+    position:relative;
+    top: -2px;
+    width: 2px;
+    height: 15px;
+    left: 25px;
+    background-color:rgb(197, 197, 197)
+}
+.line-v2 {
+    display: flex;
+    justify-content: center;
+    position:relative;
+    top: -17px;
+    width: 2px;
+    height: 15px;
+    left: 203px;
+    background-color:rgb(197, 197, 197)
 }
