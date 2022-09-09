@@ -5,12 +5,20 @@ h1{
     text-align: center;
     color: brown;
 }
+.Caja-principal{
+    justify-content: center;
+    border: outset;
+    width: 230px;
+    border-top-left-radius: 18px;
+    border-top-right-radius: 16px;
+    border-bottom-right-radius: 38px;
+}
 .Carcasa-superior {
     position: relative;
     justify-content: center;
     width: 230px;
     height: 190px;
-    border-top-left-radius: 10px;
+    border-top-left-radius: 15px;
     border-top-right-radius: 10px;
     background-color:rgb(212, 211, 211)
 }
@@ -34,9 +42,10 @@ h1{
     justify-content: center;
     position: relative;
     top: 10px;
-    left: 25px;
+    left: 22px;
     width: 180px;
     height: 145px;
+    border: outset;
     border-top-right-radius: 10px;
     border-top-left-radius: 10px;
     border-bottom-left-radius: 10px;
@@ -48,36 +57,38 @@ h1{
     display: flex;
     justify-content: center;
     position: relative;
-    top: 15px;
-    width: 135px;
-    height: 115px;
-    background-color:burlywood
+    top: 22px;
+    width: 125px;
+    height: 100px;
+    border-color: black;
+    border-radius: 2px;
+    background-color:rgb(129, 185, 129)
 }
 .a-button-1 {
-    width: 30px;
+    width: 35px;
     height: 30px;
-    transform: rotate(-35deg);
-    background-color: beige;
+    transform: rotate(-45deg);
+    background-color: rgb(189, 189, 189);
     display: flex;
     justify-content: center;
     align-items: center;
     position: relative;
-    top: 50px;
+    top: 42px;
     left: 25px;
     border-top-right-radius:15px;
     border-bottom-right-radius: 15px;
 }
 .a-button-2 {
-    width: 30px;
+    width: 35px;
     height: 30px;
-    transform: rotate(-35deg);
-    background-color: beige;
+    transform: rotate(-45deg);
+    background-color: rgb(189, 189, 189);
     display: flex;
     justify-content: center;
     align-items: center;
     position: relative;
-    top: 35.5px;
-    left: 3px;
+    top: 35px;
+    left: 2px;
     border-top-left-radius:15px;
     border-bottom-left-radius: 15px;
 }
@@ -89,13 +100,15 @@ h1{
 }
 .top-arrows {
     display:flex;
+    position: relative;
+    top: 10px;
 }
 .par {
     background-color:black;
     width: 20px;
     height: 20px;
     font-size: 150%;
-    border-radius: 2px;
+    border-radius: 3px;
 }
 .impar {
     background-color:rgb(211, 211, 211);
@@ -144,4 +157,121 @@ h1{
     height: 15px;
     left: 203px;
     background-color:rgb(197, 197, 197)
+}
+.logo {
+    justify-content: center;  
+    position:relative;
+    top: -10px;
+    left: 15px;
+}
+.line-inclined01 {
+    display: flex;
+    justify-content: center;
+    position:relative;
+    border-radius: 5px;
+    transform: rotate(45deg);
+    width: 40px;
+    height: 5px;
+    top: 70px;
+    background-color:gray;
+    top: 80px;
+    left: 15px;
+}
+.line-inclined02 {
+    display: flex;
+    justify-content: center;
+    position:relative;
+    border-radius: 5px;
+    transform: rotate(45deg);
+    width: 40px;
+    height: 5px;
+    top: 70px;
+    background-color:gray;
+    top: 80px;
+    left: 10px;
+}
+.line-inclined03 {
+    display: flex;
+    justify-content: center;
+    position:relative;
+    border-radius: 5px;
+    transform: rotate(45deg);
+    width: 40px;
+    height: 5px;
+    top: 70px;
+    background-color:gray;
+    top: 80px;
+    left: 5px;
+}
+.line-inclined04 {
+    display: flex;
+    justify-content: center;
+    position:relative;
+    border-radius: 5px;
+    transform: rotate(45deg);
+    width: 40px;
+    height: 5px;
+    top: 70px;
+    background-color:gray;
+    top: 80px;
+    left: 0px;
+}
+.line-inclined05 {
+    display: flex;
+    justify-content: center;
+    position:relative;
+    border-radius: 5px;
+    transform: rotate(45deg);
+    width: 40px;
+    height: 5px;
+    top: 70px;
+    background-color:gray;
+    top: 80px;
+    left: -5px;
+}
+.line-inclined06 {
+    display: flex;
+    justify-content: center;
+    position:relative;
+    border-radius: 5px;
+    transform: rotate(45deg);
+    width: 40px;
+    height: 5px;
+    top: 70px;
+    background-color:gray;
+    top: 80px;
+    left: -10px;
+}
+.rejilla {
+    justify-content: center;
+    position:relative; 
+    top: 4px;
+    left: 35px;
+  
+}
+.button-on {
+    display: flex;
+    justify-content: center;
+    position:relative;
+    transform: rotate(-45deg);
+    border-radius: 5px;
+    width: 25px;
+    height: 3px;
+    background-color:gray;
+    top: 70px;
+    left: 85px;
+    border: outset;
+}
+.button-off {
+    display: flex;
+    justify-content: center;
+    position:relative;
+    transform: rotate(-45deg);
+    border-radius: 5px;
+    width: 25px;
+    height: 3px;
+    background-color:gray;
+    top: 55px;
+    left: 120px;
+    border: outset;
 }
