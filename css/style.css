@@ -5,12 +5,26 @@ h1{
     text-align: center;
     color: brown;
 }
-.Carcasa-exterior {
-    display: flex;
+.Carcasa-exterior-sup {
+    position: relative;
     justify-content: center;
-    
     width: 230px;
-    height: 380px;
+    height: 190px;
+    background-color:rgb(212, 211, 211)
+    
+}
+.Carcasa-inferior {
+    display: flex;  
+}
+.Carcasa-exterior-inf-izq {
+    width: 115px;
+    height: 190px;
+    background-color:rgb(212, 211, 211)
+    
+}
+.Carcasa-exterior-inf-der {
+    width: 115px;
+    height: 190px;
     background-color:rgb(212, 211, 211)
     
 }
@@ -29,24 +43,61 @@ h1{
     justify-content: center;
     position: relative;
     top: 15px;
-    width: 130px;
+    width: 135px;
     height: 115px;
     background-color:burlywood
 }
+
 .a-button {
-    width: 50px;
-    height: 50px;
+    width: 30px;
+    height:35px;
+    transform: rotate(45deg);
     background-color: beige;
     display: flex;
     justify-content: center;
     align-items: center;
     position: relative;
-    top: 200px;
-    left: -25px;
+    top: 25px;
+    left: 20px;
 }
 .circle-red {
     background-color: red;
-    width: 40px;
-    height: 40px;
+    width: 25px;
+    height: 25px;
     border-radius: 100%;
+}
+.top-arrows {
+    display:flex;
+}
+.impar {
+    background-color:greenyellow;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    font-size: 150%; 
+}
+.par {
+    background-color:black;
+    width: 20px;
+    height: 20px;
+    font-size: 150%; 
+}
+.impar {
+    background-color:greenyellow;
+    width: 20px;
+    height: 20px;
+    font-size: 150%; 
+}
+.mando {
+    position: relative;
+    justify-content: center;
+    left:25px;
+    top: 45px;
+    
+}
+.button {
+    position: relative;
+    justify-content: center;
+    left:25px;
+    top: 0px;
 }
