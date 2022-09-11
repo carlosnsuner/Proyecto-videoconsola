@@ -8,6 +8,8 @@ h1{
 .Caja-principal{
     justify-content: center;
     border: outset;
+     /* Borde saliente, que provoca que el elemento que encierra parezca 
+    que se encuentra por encima del nivel de la superficie de la pantalla */
     width: 230px;
     border-top-left-radius: 18px;
     border-top-right-radius: 16px;
@@ -15,6 +17,8 @@ h1{
 }
 .Carcasa-superior {
     position: relative;
+    /* Establecer las propiedades superior, derecha, inferior e izquierda de 
+    un elemento relativamente posicionado */
     justify-content: center;
     width: 230px;
     height: 190px;
@@ -41,11 +45,12 @@ h1{
     display: flex;
     justify-content: center;
     position: relative;
+    border: outset;
     top: 10px;
     left: 22px;
     width: 180px;
     height: 145px;
-    border: outset;
+
     border-top-right-radius: 10px;
     border-top-left-radius: 10px;
     border-bottom-left-radius: 10px;
@@ -58,12 +63,31 @@ h1{
     justify-content: center;
     position: relative;
     top: 22px;
-    width: 125px;
+    right: 10px;
+    width: 135px;
     height: 100px;
-    border-color: black;
     border-radius: 2px;
     background-color:rgb(129, 185, 129)
 }
+/* .line-sup{
+    height: 5px;
+    width: 20%;
+    margin-top: 10px;
+    background-color: black;
+} Falta definir posicion*/
+
+.text-battery{
+    display: flex;
+    font-size: 3px;
+    align-items:center;
+    margin-top: 50px;
+    margin-right: 25px;
+    color: #333;
+    width: 5px;
+    height: 5px;
+    
+}
+
 .a-button-1 {
     width: 35px;
     height: 30px;
@@ -97,6 +121,7 @@ h1{
     width: 20px;
     height: 20px;
     border-radius: 100%;
+    border-style: groove;
 }
 .top-arrows {
     display:flex;
@@ -249,29 +274,35 @@ h1{
     left: 35px;
   
 }
-.button-on {
+.button-select {
     display: flex;
     justify-content: center;
     position:relative;
     transform: rotate(-45deg);
     border-radius: 5px;
+    border-style: groove;
+    /* Muestra un borde con apariencia tallada. Es lo opuesto a outset  */
     width: 25px;
     height: 3px;
     background-color:gray;
     top: 70px;
     left: 85px;
-    border: outset;
+    font-size: 9px;
+    /* Me falta justificar el texto */
 }
-.button-off {
+
+.button-start {
     display: flex;
     justify-content: center;
     position:relative;
     transform: rotate(-45deg);
+    border-style: groove;
     border-radius: 5px;
     width: 25px;
     height: 3px;
     background-color:gray;
     top: 55px;
     left: 120px;
-    border: outset;
+    font-size: 9px;
+    /* Me falta justificar el texto */
 }
