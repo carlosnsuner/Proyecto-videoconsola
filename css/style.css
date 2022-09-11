@@ -189,6 +189,28 @@ h1{
     top: -10px;
     left: 15px;
 }
+.letra-B{
+    display: flex;
+    justify-content: center;
+    position:relative;
+    transform: rotate(-45deg);
+    width: 25px;
+    height: 3px;
+    top: 30px;
+    right: 20px;
+    font-size: 12px;  
+}
+.letra-A{
+    display: flex;
+    justify-content: center;
+    position:relative;
+    transform: rotate(-45deg);
+    width: 25px;
+    height: 3px;
+    top:5px;
+    right:-1px;
+    font-size: 12px; 
+}
 .line-inclined01 {
     display: flex;
     justify-content: center;
@@ -270,8 +292,8 @@ h1{
 .rejilla {
     justify-content: center;
     position:relative; 
-    top: 4px;
-    left: 35px;
+    top: 0px;
+    left: 38px;
   
 }
 .button-select {
@@ -281,16 +303,35 @@ h1{
     transform: rotate(-45deg);
     border-radius: 5px;
     border-style: groove;
-    /* Muestra un borde con apariencia tallada. Es lo opuesto a outset  */
     width: 25px;
     height: 3px;
     background-color:gray;
     top: 70px;
     left: 85px;
     font-size: 9px;
-    /* Me falta justificar el texto */
 }
-
+.text-button-select{
+    display: flex;
+    justify-content: center;
+    position:relative;
+    transform: rotate(-45deg);
+    width: 25px;
+    height: 3px;
+    top: 68px;
+    left: 92px;
+    font-size: 8px;   
+}
+.text-button-start{
+    display: flex;
+    justify-content: center;
+    position:relative;
+    transform: rotate(-45deg);
+    width: 25px;
+    height: 3px;
+    top: 54px;
+    left: 127px;
+    font-size: 8px; 
+}
 .button-start {
     display: flex;
     justify-content: center;
@@ -304,5 +345,4 @@ h1{
     top: 55px;
     left: 120px;
     font-size: 9px;
-    /* Me falta justificar el texto */
 }
